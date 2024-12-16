@@ -7,7 +7,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(to bottom, blue, purple); /* Gradient from blue to purple */
+  background: linear-gradient(120deg,#2980b9, #8e44ad); /* Gradient from blue to purple */
 }
 
 /* Middle Box Container */
