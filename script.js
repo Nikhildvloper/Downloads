@@ -1,6 +1,6 @@
 // Function to fetch the download link from download.txt
 function fetchDownloadLink() {
-  fetch('download.txt')
+  fetch('Download.txt')
     .then(response => {
       if (!response.ok) {
         throw new Error('Could not fetch the download link');
