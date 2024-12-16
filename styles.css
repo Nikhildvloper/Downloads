@@ -7,34 +7,35 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(135deg, #ff7eb3, #8c37f5);
-  color: #ffffff;
+  background: linear-gradient(135deg, #87ceeb, #4682b4); /* Light blue background */
 }
 
 /* Container */
 .container {
   text-align: center;
-  padding: 20px;
-  border-radius: 10px;
-  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  background: #ffffff; /* White box */
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 90%;
 }
 
 /* Title */
 .title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 20px;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  color: #333; /* Dark text for contrast */
 }
 
 /* Download Button */
 .download-btn {
   font-size: 1.5rem;
-  color: #fff;
-  background: linear-gradient(90deg, #ff5722, #e91e63);
+  color: #ffffff;
+  background: #007bff; /* Blue button */
   padding: 15px 30px;
   border: none;
-  border-radius: 50px;
+  border-radius: 10px;
   cursor: pointer;
   transition: transform 0.2s, box-shadow 0.2s;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -48,7 +49,7 @@ body {
 /* Responsive Design */
 @media (max-width: 600px) {
   .title {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .download-btn {
